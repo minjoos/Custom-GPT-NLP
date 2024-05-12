@@ -10,7 +10,7 @@ This section provides examples of how to utilize the custom GPT model for specif
 
 - **Querying the Model**:
   ```python
-from langchain_openai import ChatOpenAI
-chat_model = ChatOpenAI(api_key='your_openai_api_key')
-response = chat_model.query("What is natural language processing?")
-print(response)
+  from langchain_openai import ChatOpenAI
+  chat_model = ChatOpenAI(api_key='your_openai_api_key')
+  response = chat_model.query("What is natural language processing?")
+  print(response)
